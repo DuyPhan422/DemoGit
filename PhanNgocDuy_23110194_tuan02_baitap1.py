@@ -37,6 +37,3 @@ student3 = Student("Phạm Minh D", 22, [9.5, 9.0, 9.0])
 teacher.add_student(student1)
 teacher.add_student(student2)
 teacher.add_student(student3)
-
-teacher.print_student_list()
-print(f"Điểm trung bình của lớp: {teacher.average_class_grade():.2f}")
